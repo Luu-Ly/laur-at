@@ -1,0 +1,17 @@
+{
+  "name": "vote-jury-chm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vote du jury - 1ère Journée de Recherche du CH de Mayotte",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node test/api.test.js && node test/ui.test.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
